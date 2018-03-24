@@ -1,6 +1,8 @@
-# OpenPDU HCL (Hardware Compatibility List)
+# OpenPDU HCL
+Hardware Compatibility List
 
 ## controller board
+
 | Board name            | CPU             | RAM       | Supported | Notes                               |
 |-----------------------|-----------------|-----------|:---------:|-------------------------------------|
 | Raspberry Pi 2B       | BCM2835         | 1Gb       | Yes       |                                     |
@@ -25,3 +27,10 @@
 | Orange Pi 2G-IOT      | Cortex-a5       | 256Mb     | No        | Missing Ethernet - Useless 2G modem |
 | Orange Pi i96         | Cortex-A5       | 256Mb     | No        | Missing Ethernet                    |
 | Orange Pi RK3399      | Rockchip RK3399 | 2Gb       | No        | Board too big                       |
+
+## power board
+Any power supply capable to power the controller board is good. Please refer to the controller manufacturer website.
+
+## relays board
+Cheap relays boards are available for few bucks. These boards comes with cheap relays and are usually managed via GPIO. So for a 8 channel relays board, there are 10 pin: GND, 1 pin for each relay, 5Vdc.
+Usually the relays in this board are "rated" for 5A or even 10A. Please don't trust these values.
