@@ -17,33 +17,13 @@ The first iteration will cover the scenario of a retrofit of an existing (rack) 
 
  The controller board will be a commonly available one (let's say a Raspberry PI 2/3, Orange Pi, ...). The requirements are:
 
-  - capable of running linux
+  - capable of running linux (Alpinelinux or Raspbian)
   - at least 256mb of RAM
   - ethernet port
   - GPIO/i2c port
   - (40pin connector? some orangepis have only 26)
 
-
-Orange Pis:
-  - zero (H2 + 256/512Mb + 26pin)
-  - oneplus (H6 + 1Gb + 26pin)
-  - one (H3 + 512Mb + 40pin)
-  - lite (H3 + 512Mb + 40pin) - missing ETH
-  - lite2 (H6 + 1Gb + 26pin) - missing ETH
-  - pc (H3 + 1Gb + 40pin)
-  - pcplus (H3 + 1Gb + 40pin)
-  - pc2e (H3 + 2Gb + 40pin)
-  - pc2 (H5 + 1Gb + 40pin)
-  - plus2 (H3 + 2Gb + 40pin)
-  - zeroplus2 (H5 + 512Mb + 26pin) - missing ETH
-  - 2G-IOT (cortex-a5 + 256Mb + 40pin) - missing ETH - SIM CARD
-  - Win (A64 + 1Gb + 40pin)
-  - WinPlus (A64 + 2Gb + 40pin)
-  - Prime (H5 + 2Gb + 40pin)
-  - i96 (Cortex-A5 + 256Mb + 40pin) - missing ETH
-  - zeroplus (H5 + 512MB + 26pin)
-  - R1 (H2 + 256Mb + 26pin) - dual ETH
-  - RK3399 (RK3399 + 2Gb + 40pin) - really big board
+ We prefer the OrangePi over the RaspberryPi because it's more open (and cheap).
 
  There won't be wireless support at the moment.
 
