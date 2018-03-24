@@ -1,25 +1,27 @@
 # OpenPDU HCL (Hardware Compatibility List)
 
 ## controller board
-- zero (H2 + 256/512Mb + 26pin)
-- oneplus (H6 + 1Gb + 26pin)
-- one (H3 + 512Mb + 40pin)
-- pc (H3 + 1Gb + 40pin)
-- pcplus (H3 + 1Gb + 40pin)
-- pc2e (H3 + 2Gb + 40pin)
-- pc2 (H5 + 1Gb + 40pin)
-- plus2 (H3 + 2Gb + 40pin)
-- Win (A64 + 1Gb + 40pin)
-- WinPlus (A64 + 2Gb + 40pin)
-- Prime (H5 + 2Gb + 40pin)
-- zeroplus (H5 + 512MB + 26pin)
-- R1 (H2 + 256Mb + 26pin) - dual ETH
-
-| Board name            | CPU             | RAM   | Supported | Notes |
-|-----------------------|-----------------|-------|:---------:|-------|
-| Orange Pi Lite        | AllWinner H3    | 512Mb |     N     | Missing Ethernet                    |
-| Orange Pi Lite2       | AllWinner H6    | 1Gb   |     N     | Missing Ethernet                    |
-| Orange Pi Zero Plus 2 | AllWinner H5    | 512Mb |     N     | Missing Ethernet                    |
-| Orange Pi 2G-IOT      | Cortex-a5       | 256Mb |     N     | Missing Ethernet - Useless 2G modem |
-| Orange Pi i96         | Cortex-A5       | 256Mb |     N     | Missing Ethernet                    |
-| Orange Pi RK3399      | Rockchip RK3399 | 2Gb   |     N     | Board too big                       |
+| Board name            | CPU             | RAM       | Supported | Notes                               |
+|-----------------------|-----------------|-----------|:---------:|-------------------------------------|
+| Raspberry Pi 2B       | BCM2835         | 1Gb       | Yes       |                                     |
+| Raspberry Pi 3B       | BCM2837         | 1Gb       | Yes       |                                     |
+| Raspberry Pi 3B+      | BCM2837B0       | 1Gb       | Yes       |                                     |
+| Orange Pi One         | AllWinner H3    | 512Mb     | Yes       |                                     |
+| Orange Pi Zero        | AllWinner H2    | 256/512Mb | Planned   |                                     |
+| Orange Pi One Plus    | AllWinner H6    | 1Gb       | Planned   |                                     |
+| Orange Pi Pc          | AllWinner H3    | 1Gb       | Planned   |                                     |
+| Orange Pi Pc Plus     | AllWinner H3    | 1Gb       | Planned   |                                     |
+| Orange Pi Pc 2e       | AllWinner H3    | 2Gb       | Planned   |                                     |
+| Orange Pi Pc 2        | AllWinner H5    | 1Gb       | Planned   |                                     |
+| Orange Pi Plus 2      | AllWinner H3    | 2Gb       | Planned   |                                     |
+| Orange Pi Win         | AllWinner A64   | 1Gb       | Planned   |                                     |
+| Orange Pi WinPlus     | AllWinner A64   | 2Gb       | Planned   |                                     |
+| Orange Pi Prime       | AllWinner H5    | 2Gb       | Planned   |                                     |
+| Orange Pi Zero Plus   | AllWinner H5    | 512MB     | Planned   |                                     |
+| Orange Pi R1          | AllWinner H2    | 256Mb     | Planned   | Dual Ethernet                       |
+| Orange Pi Lite        | AllWinner H3    | 512Mb     | No        | Missing Ethernet                    |
+| Orange Pi Lite2       | AllWinner H6    | 1Gb       | No        | Missing Ethernet                    |
+| Orange Pi Zero Plus 2 | AllWinner H5    | 512Mb     | No        | Missing Ethernet                    |
+| Orange Pi 2G-IOT      | Cortex-a5       | 256Mb     | No        | Missing Ethernet - Useless 2G modem |
+| Orange Pi i96         | Cortex-A5       | 256Mb     | No        | Missing Ethernet                    |
+| Orange Pi RK3399      | Rockchip RK3399 | 2Gb       | No        | Board too big                       |
