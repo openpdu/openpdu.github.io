@@ -2,6 +2,12 @@
 Hardware Compatibility List
 
 ## controller board
+The requirements for the controller are are:
+
+ - capable of running linux (Alpinelinux or Raspbian)
+ - at least 256mb of RAM
+ - ethernet port
+ - GPIO and/or i2c port
 
 | Board name            | CPU             | RAM       | Supported | Notes                               |
 |-----------------------|-----------------|-----------|:---------:|-------------------------------------|
@@ -27,6 +33,8 @@ Hardware Compatibility List
 | Orange Pi 2G-IOT      | Cortex-a5       | 256Mb     | No        | Missing Ethernet - Useless 2G modem |
 | Orange Pi i96         | Cortex-A5       | 256Mb     | No        | Missing Ethernet                    |
 | Orange Pi RK3399      | Rockchip RK3399 | 2Gb       | No        | Board too big                       |
+| Raspberry Pi Zero     | BCM2835         | 1Gb       | No        | Missing Ethernet                    |
+| Raspberry Pi Zero W   | BCM2835         | 1Gb       | No        | Missing Ethernet                    |
 
 ## power board
 Any power supply capable to power the controller board is good. Please refer to the controller manufacturer website.

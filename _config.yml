@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+show_downloads: false
+title: OpenPDU
+description: your next PDU
+github:
+  repository_url: https://github.com/openpdu/openpdu
