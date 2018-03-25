@@ -1,5 +1,5 @@
 # Software
-This is an embedded system, and Alpine Linux[Alpine Linux](https://www.alpinelinux.org) is the best choice, because it runs from RAM and it's very stable.
+This is an embedded system, and [Alpine Linux](https://www.alpinelinux.org) is the best choice, because it runs from RAM and it's very stable.
 
 We still want to support other operating systems, at least [raspbian](https://www.raspbian.org/).
 
